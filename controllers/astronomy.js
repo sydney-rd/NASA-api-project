@@ -1,9 +1,8 @@
-// change names...
-import Astronomy from '../models/Model.js';
+import Astronomy from '../models/Astronomy.js';
 
-export const getModels = async (req, res) => {
+export const getAPODs = async (req, res) => {
   try {
-    const models = await Country.find();
+    const models = await Astronomy.find();
     res.json(models);
   } catch (error) {
     console.error(error);
@@ -12,10 +11,10 @@ export const getModels = async (req, res) => {
 };
 
 // rename w/ country
-export const getModel = async (req, res) => {
+export const getAPOD = async (req, res) => {
   try {
     const { id } = req.params;
-    const model = await Model.findById(id);
+    const model = await model.findById(id);
 
     if (model) {
       return res.json(model);
@@ -28,9 +27,9 @@ export const getModel = async (req, res) => {
   }
 };
 
-export const createModel = async (req, res) => {
+export const createAPOD = async (req, res) => {
   try {
-    const model = new Model(req.body);
+    const model = new model(req.body);
     await model.save();
     res.status(201).json(model);
   } catch (error) {
@@ -39,10 +38,10 @@ export const createModel = async (req, res) => {
   }
 };
 
-export const updateModel = async (req, res) => {
+export const updateAPOD = async (req, res) => {
   try {
     const { id } = req.params;
-    const model = await Model.findByIdAndUpdate(id, req.body);
+    const model = await model.findByIdAndUpdate(id, req.body);
     res.status(201).json(model);
   } catch (error) {
     console.error(error);
@@ -50,10 +49,10 @@ export const updateModel = async (req, res) => {
   }
 };
 
-export const deleteModel = async (req, res) => {
+export const deleteAPOD = async (req, res) => {
   try {
     const { id } = req.params;
-    const deleted = await Model.findByIdAndDelete(id);
+    const deleted = await model.findByIdAndDelete(id);
 
     if (deleted) {
       return res.status(200).send("Model deleted!");

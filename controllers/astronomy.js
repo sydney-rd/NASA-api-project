@@ -1,5 +1,5 @@
 // change names...
-import Country from '../models/Model.js';
+import Astronomy from '../models/Model.js';
 
 export const getModels = async (req, res) => {
   try {

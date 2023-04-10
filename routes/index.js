@@ -1,8 +1,8 @@
 import {Router} from "express";
-import countryRoutes from "./country.js";
+import astronomyRoutes from "./astronomy";
 
 const router = Router();
 
-router.use("/countries", countryRoutes);
+router.use("/astronomy", astronomyRoutes);
 
 export default router;

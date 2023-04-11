@@ -13,8 +13,6 @@ let astronomyData = data.map(item => {
     }
 });
 
-
-
 let insertData = async() => {
     try {
         await APOD.deleteMany({});

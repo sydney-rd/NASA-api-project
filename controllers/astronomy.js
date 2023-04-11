@@ -31,6 +31,7 @@ export const getAPOD = async (req, res) => {
 export const createAPOD = async (req, res) => {
   try {
     const astronomyImg = new Astronomy(req.body);
+    console.log(req.body)
     await astronomyImg.save();
     res.status(201).json(astronomyImg);
   } catch (error) {

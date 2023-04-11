@@ -3,7 +3,6 @@ import * as controllers from "../controllers/astronomy.js"
 
 const router = Router();
 
-
 router.get('/', controllers.getAPODs) 
 router.get('/id/:id',controllers.getAPOD);
 router.post('/', controllers.createAPOD);

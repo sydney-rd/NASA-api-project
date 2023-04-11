@@ -7,7 +7,8 @@ import chalk from "chalk";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log("app listening on port"));
+
+app.listen(PORT, () => console.log(`app listening on port ${PORT}`));
 
 // set up middleware
 app.use(express.json());
@@ -22,7 +23,4 @@ app.use(express.static("homeRoot"));
 db.on("connected", () => {
     console.clear()
     console.log(chalk.blue("connected to Mongodb"))
-    app.listen(PORT, () => {
-        process.env.NODE_ENV === "production" ? console.log(`express server running in prod on port ${PORT}\n\n`) : console.log(`express server running in development on: ${PORT}`)
-    })
 })

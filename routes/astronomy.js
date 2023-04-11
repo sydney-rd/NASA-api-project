@@ -3,8 +3,8 @@ import * as controllers from "../controllers/astronomy.js"
 
 const router = Router();
 
-// gets /countries from index
-router.get('/', controllers.getAPODS) // gets all countries
+
+router.get('/', controllers.getAPODs) 
 router.get('/id/:id',controllers.getAPOD);
 router.post('/', controllers.createAPOD);
 router.put('/id/:id', controllers.updateAPOD);

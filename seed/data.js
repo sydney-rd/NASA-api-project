@@ -1,22 +1,30 @@
-import mongoose from "mongoose"
-// import connection from "../db/connection.js"
+import db from "../db/connection.js";
 import data from "../APOD.json" assert { type: "json"}
-import APOD from "../models/Astronomy.js" // stands for Astronomy Picture of Day
+import APOD from "../models/Astronomy.js"; // stands for Astronomy Picture of Day
 import chalk from "chalk";
 
 let astronomyData = data.map(item => {
-    const apod = {};
-    apod.imgTitle = item.imgTitle;
-    apod.imgDate = item.imgDate;
-    apod.imgExplanation = item.imgExplanation;
-    apod.imgCredit = item.imgCredit;
-    apod.imgURL = item.imgUrl;
+    return {
+    date: item.date,
+    title: item.title,
+    explanation: item.explanation,
+    credit: item.copyright,
+    url: item.url
+    }
 });
 
 
-APOD
-    .deleteMany({})
-    .then(() => APOD.create(astronomyData))
-    .then(() => console.log("done!"))
-    .then(() => mongoose.disconnect())
-    .catch(error => console.log(chalk.red(`error: ${error}`)))
+
+let insertData = async() => {
+    try {
+        await APOD.deleteMany({});
+        await APOD.create(astronomyData);
+        console.log("seeded");
+        db.close();
+    }
+    catch (error) {
+        console.log(chalk.red(error))
+    }
+}
+
+insertData();

@@ -11,10 +11,34 @@ APOD
 
 ## API Get Endpoints
 
-**Request with no paramaters**
+**Request: A request with no paramaters**
 will return all astronomy picture of the day data: http://localhost:3000/astronomy
 
+**Response**:
 <img src="./assets/reqNoParams.png">
+
+**Request: A request by ID** will return an object specific of that ID: http://localhost:3000/astronomy/id/
+
+_OR_
+
+**Request: A request by Date** will return an object specified for entered date: http://localhost:3000/astronomy/date/2006-06-05
+
+**Response**
+<img src="./assets/reqById.png">
+
+## Object Content
+
+{
+
+    { 
+        "date": "string",
+        "title": "string",
+        "explanation": "string"",
+        "credit": "string",
+        "url": "string",
+    }
+}
+
 
 
 <!-- DESCRIBE ALL END POINTS

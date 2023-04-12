@@ -14,7 +14,7 @@ APOD
 **Request with no paramaters**
 will return all astronomy picture of the day data: http://localhost:3000/astronomy
 
-<img src="assets/reqNoParams.png">
+<img src="./assets/reqNoParams.png">
 
 
 <!-- DESCRIBE ALL END POINTS

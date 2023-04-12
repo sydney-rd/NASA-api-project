@@ -16,7 +16,6 @@ export const getAPOD = async (req, res) => {
   try {
     const { id } = req.params;
     const astronomyImg = await Astronomy.findById(id);
-
     if (astronomyImg) {
       return res.json(astronomyImg);
     }
@@ -30,7 +29,16 @@ export const getAPOD = async (req, res) => {
 
 export const getAPODByDate = async (req, res) => {
   try {
-    const {}
+    const { date } = req.params;
+
+    const astronomyImg = await Astronomy.findOne({date});
+    if (!astronomyImg) {
+      return res.status(404).json({ message: "Date not found!" })
+    }  
+    res.json(astronomyImg);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({error: error.message})
   }
 }
 

@@ -5,7 +5,7 @@ const router = Router();
 
 router.get('/', controllers.getAPODs) 
 router.get('/id/:id',controllers.getAPOD);
-router.get('id/:id/:id', controllers.getAPODByDate)
+router.get('/date/:date', controllers.getAPODByDate)
 router.post('/', controllers.createAPOD);
 // postman
 // copy obj

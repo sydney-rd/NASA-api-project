@@ -9,8 +9,16 @@ APOD
 - [Github](https://github.com/nasa/apod-api)
 * [NASA](https://api.nasa.gov/)
 
-## API Get Points
+## API Get Endpoints
+
+**Request with no paramaters**
+will return all astronomy picture of the day data: http://localhost:3000/astronomy
+
+<img src="assets/reqNoParams.png">
+
+
 <!-- DESCRIBE ALL END POINTS
+
 example of get all: 
 getAPODS - http://localhost:3000/astronomy
 getAPOD - http://localhost:3000/astronomy/id/64349f33ec33ccc4823dd13c

@@ -1,5 +1,5 @@
 body {
-    background: url("https://spaceexplored.com/wp-content/uploads/sites/10/2021/11/NASAimage_MacBook_Wallpaper_2.jpg?w=1024") no-repeat center fixed;
+    background: url("https://wallpaperaccess.com/full/1130622.gif") no-repeat center fixed;
     /* height: 100vh;
     width: 100vw;
     background-repeat: no-repeat; */
@@ -24,4 +24,35 @@ div {
 
 .hidden {
     display: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.rocket {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+  }
+  
+.rocket-container {
+    position: fixed;
+    bottom: 0;
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    animation: fly 5s linear infinite;
+}
+  
+@keyframes fly {
+    0% {
+      bottom: 0;
+    }
+    100% {
+      bottom: 100vh;
+    }
 }

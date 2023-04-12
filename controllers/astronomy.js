@@ -28,10 +28,16 @@ export const getAPOD = async (req, res) => {
   }
 };
 
+export const getAPODByDate = async (req, res) => {
+  try {
+    const {}
+  }
+}
+
 export const createAPOD = async (req, res) => {
   try {
     const astronomyImg = new Astronomy(req.body);
-    console.log(req.body)
+    // console.log(req.body)
     await astronomyImg.save();
     res.status(201).json(astronomyImg);
   } catch (error) {

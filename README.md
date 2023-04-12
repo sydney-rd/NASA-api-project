@@ -5,9 +5,9 @@ The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Or
 
 
 # Credit
-APOD
-[Github](https://github.com/nasa/apod-api)
-[NASA](https://api.nasa.gov/)
+## APOD
+- [Github](https://github.com/nasa/apod-api)
+* [NASA](https://api.nasa.gov/)
 <!-- DESCRIBE ALL END POINTS
 example of get all: 
 getAPODS - http://localhost:3000/astronomy

@@ -77,7 +77,7 @@ APOD
 - [Github](https://github.com/nasa/apod-api)
 * [NASA](https://api.nasa.gov/)
 
-<img src="./assets/NASA.png">
+<img src="./assets/NASA.png" width="200">
 
 
 

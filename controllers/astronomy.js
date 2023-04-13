@@ -1,4 +1,4 @@
-import Astronomy from '../models/Astronomy.js';
+import Astronomy from "../models/Astronomy.js";
 
 // change models to spaceitem etc..
 export const getAPODs = async (req, res) => {
@@ -11,7 +11,6 @@ export const getAPODs = async (req, res) => {
   }
 };
 
-
 export const getAPOD = async (req, res) => {
   try {
     const { id } = req.params;
@@ -20,7 +19,6 @@ export const getAPOD = async (req, res) => {
       return res.json(astronomyImg);
     }
     res.status(404).json({ message: "Model not found!" });
-
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: error.message });
@@ -31,16 +29,16 @@ export const getAPODByDate = async (req, res) => {
   try {
     const { date } = req.params;
 
-    const astronomyImg = await Astronomy.findOne({date});
+    const astronomyImg = await Astronomy.findOne({ date });
     if (!astronomyImg) {
-      return res.status(404).json({ message: "Date not found!" })
-    }  
+      return res.status(404).json({ message: "Date not found!" });
+    }
     res.json(astronomyImg);
   } catch (error) {
     console.error(error);
-    res.status(500).json({error: error.message})
+    res.status(500).json({ error: error.message });
   }
-}
+};
 
 export const createAPOD = async (req, res) => {
   try {
@@ -75,7 +73,6 @@ export const deleteAPOD = async (req, res) => {
     }
 
     throw new Error("Model not found");
-
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: error.message });

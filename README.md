@@ -90,7 +90,7 @@ Enter link with specific date as shown below
 
 ```api-project-production-9de8.up.railway.app/astronomy/date/1995-09-21```
 
-##**CREATE**
+**CREATE**
 
 1. HTTP verb to POST
 ```api-project-production-9de8.up.railway.app/astronomy/```

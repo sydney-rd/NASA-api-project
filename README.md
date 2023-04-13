@@ -53,6 +53,13 @@ _OR_
 <img src="./assets/reqById.png">
 
 ## CRUD Implementation 
+
+**Get** using API platform, Postman:
+
+1. link
+2. 
+3. 
+
 **Create** using API platform, Postman:
 
 1. https://api-project-production-9de8.up.railway.app/astronomy ?
@@ -61,13 +68,13 @@ _OR_
 4. click raw and its type to JSON
 5. utilize the object above to create
 
-**Update**
+**Update** using API platform, Postman:
 
 1. link
 2. switch the endpoint to PUT
 3. 
 
-**Delete**
+**Delete** using API platform, Postman:
 1. link
 2. switch the endpoint to DELETE
 3. 

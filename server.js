@@ -15,10 +15,11 @@ app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
 
-app.use("/", routes);
-
 // brings you to homepage
 app.use(express.static("homeRoot"));
+
+app.use("/", routes);
+
 
 db.on("connected", () => {
     console.clear()

@@ -11,16 +11,13 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
 
 <p align="center">
     🌑  ★      •　°    ✯  ★     🛸  🌎　°　　🌓　<br>
-    ⭐️       .       .    ☄   ★   <br>
+    ⭐️       .       .    ☄   ★        .　　　•　° ★　<br>
       ★      .<br>
          •　　.°•　　🚀 ✯ ⭐️　★　*　　★　　°　　💫　<br>
-    <br>
     　 🛰 　°<br>
-         ·　　          .　　　•　° ★　<br>
-    <br>
-    •  ☄ ⭐️•<br>
-         　° ★ •　° ★  ⭐️   🪐        .°•         💫<br>
+    •  ☄ ⭐️•     　° ★ •　° ★  ⭐️   🪐        .°•         💫<br>
 </p>
+
 
 
 ## Object Content
@@ -41,11 +38,13 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
 
 ## Run
 - Fork and git clone this repository
+- 
 
 In the terminal, run:
+- npm i 
+- npm run seed/data.js
 - npm start
 - npm run dev
-- 
 
 ## API Get Endpoints Examples
 

@@ -102,6 +102,7 @@ Enter link with specific date as shown below
 **UPDATE**
 
 1. HTTP verb to PUT
+
 ```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
 
 2. Enter specific object ID number and update

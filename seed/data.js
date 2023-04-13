@@ -15,7 +15,7 @@ let astronomyData = data.map((item) => {
 
 let insertData = async () => {
   try {
-    await APOD.deleteMany({});
+    await db.dropDatabase();
     let scrubData = sortAstronomyDataByDate(astronomyData);
     await APOD.create(scrubData);
     console.log("seeded");

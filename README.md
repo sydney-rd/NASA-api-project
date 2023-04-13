@@ -2,8 +2,7 @@
 
 ## Description
 
-
-🚀 The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Originated, written, coordinated, and edited since 1995 by Robert Nemiroff and Jerry Bonnell, the APOD arcive contains the largest collection of annotated astronomical images on the internet! 🪐
+The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Originated, written, coordinated, and edited since 1995 by Robert Nemiroff and Jerry Bonnell, the APOD arcive contains the largest collection of annotated astronomical images on the internet! 🪐
 
 
 
@@ -69,43 +68,59 @@ link: api-project-production-9de8.up.railway.app/astronomy/:date/2015-04-21
 **Response**
 <img src="./assets/reqById.png">
 
-## CRUD Implementation 
+## CRUD Implementation with Postman
 
-**GET** using Postman:
+**GET** 
 
-1. link
-2. 
-3. 
+1. HTTP verb to GET
 
-**CREATE** using Postman:
+Enter link to find all information available
 
-1. https://api-project-production-9de8.up.railway.app/astronomy ?
-2. switch the endpoint to POST
+https://api-project-production-9de8.up.railway.app/astronomy
+
+_OR_
+
+Enter link with specific object ID number as shown below
+
+https://api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27
+
+_OR_
+
+Enter link with specific date as shown below
+
+https://api-project-production-9de8.up.railway.app/astronomy/date/1995-09-21
+
+**CREATE**
+
+1. HTTP verb to POST
+2. api-project-production-9de8.up.railway.app/astronomy/
 3. click Body
 4. click raw and its type to JSON
-5. utilize the object above to create
+5. utilize the object above to create in the body
 
-**UPDATE** using Postman:
+**UPDATE**
 
-1. link
-2. switch the endpoint to PUT
-3. 
+1. HTTP verb to PUT
+2. Enter link with specific object ID number to update
 
-**DELETE** using Postman:
-1. link
-2. switch the endpoint to DELETE
-3. 
+**DELETE**
+1. HTTP verb to DELETE
+2. Enter link with specific object ID number to update
+
+https://api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27 
 
 ## Credit
 APOD
 - [Github](https://github.com/nasa/apod-api)
 * [NASA](https://api.nasa.gov/)
 
-<center>
+<p align="center">
 
 <img src="./assets/NASA.png" width="200">
 
-</center>
+</p>
+
+
 
 
 

@@ -93,19 +93,19 @@ Enter link with specific date as shown below
 **CREATE**
 
 1. HTTP verb to POST
-```api-project-production-9de8.up.railway.app/astronomy/```
-
 2. click Body
 3. click raw and its type to JSON
 4. utilize the object above to create in the body
 
+```api-project-production-9de8.up.railway.app/astronomy/```
+
+
 **UPDATE**
 
 1. HTTP verb to PUT
+2. Enter specific object ID number and update
 
 ```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
-
-2. Enter specific object ID number and update
 
 **DELETE**
 1. HTTP verb to DELETE

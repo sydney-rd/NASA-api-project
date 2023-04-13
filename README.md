@@ -34,16 +34,16 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
 
 * [Postman](https://www.postman.com/downloads/) Platform for building and using API's
 
-
 ## Run
 - Fork and git clone this repository
-- 
 
 In the terminal, run:
+```
 - npm i 
 - npm run seed/data.js
 - npm start
 - npm run dev
+```
 
 ## API Get Endpoints Examples
 
@@ -103,13 +103,14 @@ Enter link with specific date as shown below
 **UPDATE**
 
 1. HTTP verb to PUT
-2. Enter specific object ID number and update
+2. Enter specific object ID number
+3. Copy and paste the object in the body and update what is needed
 
 ```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
 
 **DELETE**
 1. HTTP verb to DELETE
-2. Enter link with specific object ID number to update
+2. Enter link with specific object ID number to 
 
 ```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
 

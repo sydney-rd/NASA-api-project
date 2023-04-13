@@ -29,20 +29,16 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
         "url": "string",
     }
 
-## Installation
-- Text editor of your choice [VSCODE](https://code.visualstudio.com/Download)
-
-* [Postman](https://www.postman.com/downloads/) Platform for building and using API's
-
-## Run
-- Fork and git clone this repository
+## Install and Run
 
 In the terminal, run:
 ```
-- npm i 
-- npm run seed/data.js
-- npm start
-- npm run dev
+- $ git clone <NASA-api-project-giturl>
+- $ cd NASA-api-project
+- $ npm i # installs dependencies
+- $ npm run seed/data.js # seeds through data.js
+- $ npm start # runs node server.js
+- $ npm run dev # runs nodemon server.js
 ```
 
 ## API Get Endpoints Examples

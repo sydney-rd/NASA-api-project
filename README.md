@@ -5,10 +5,10 @@
 
 Why NASA? I find those in this trade inspiring and wanted to explore their work with this API.  
                             
-
+  🌑  ★   •　°    ✯  ★   🌕  🛸    🪐
 　　　 　🌎　°　　🌓　•　　.°•　　　🚀 ✯
-　　　★　*　　　　　°　　　　🛰 　°·　　             
-.　　　•　° ★　•  ☄
+　⭐️　★　*　　★　　°　　💫　　🛰 　°·　　             
+.　　　•　° ★　•  ☄ ⭐️
 
 ## Object Content
 
@@ -25,11 +25,9 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
 
 * [Postman](https://www.postman.com/downloads/) Platform for building and using API's
 
-## Dependencies
 
 ## Run
 - Fork and git clone this repository
-- Install dependecies
 
 In the terminal, run:
 - npm start
@@ -38,30 +36,36 @@ In the terminal, run:
 
 ## API Get Endpoints Examples
 
-**Request: A request with no paramaters**
-will return all astronomy picture of the day data: http://localhost:3000/astronomy
-(changelink)
+**Request: A request with no parameters**
+will return all astronomy picture of the day data: 
+
+link: api-project-production-9de8.up.railway.app/astronomy
+
 **Response**:
 <img src="./assets/reqNoParams.png">
 
-**Request: A request by ID** will return an object specific of that ID: http://localhost:3000/astronomy/id/
+**Request: A request by ID** will return an object specific of that ID: 
+
+link: api-project-production-9de8.up.railway.app/astronomy/id/(objectID number)
 
 _OR_
 
-**Request: A request by Date** will return an object specified for entered date: http://localhost:3000/astronomy/date/2006-06-05
+**Request: A request by Date** will return an object specified for entered date:
+
+link: api-project-production-9de8.up.railway.app/astronomy/date/2015-04-21
 
 **Response**
 <img src="./assets/reqById.png">
 
 ## CRUD Implementation 
 
-**Get** using API platform, Postman:
+**GET** using Postman:
 
 1. link
 2. 
 3. 
 
-**Create** using API platform, Postman:
+**CREATE** using Postman:
 
 1. https://api-project-production-9de8.up.railway.app/astronomy ?
 2. switch the endpoint to POST
@@ -69,13 +73,13 @@ _OR_
 4. click raw and its type to JSON
 5. utilize the object above to create
 
-**Update** using API platform, Postman:
+**UPDATE** using Postman:
 
 1. link
 2. switch the endpoint to PUT
 3. 
 
-**Delete** using API platform, Postman:
+**DELETE** using Postman:
 1. link
 2. switch the endpoint to DELETE
 3. 
@@ -90,24 +94,3 @@ APOD
 
 
 
-<!-- DESCRIBE ALL END POINTS
-
-example of get all: 
-getAPODS - http://localhost:3000/astronomy
-getAPOD - http://localhost:3000/astronomy/id/64349f33ec33ccc4823dd13c
-
-use postman
-createAPOD - use postman POST http://localhost:3000/astronomy
-
-{
-    "date": "string",
-    "title": "string",
-    "explanation": "string"",
-    "credit": "string",
-    "url": "string",
-}
-
-
-updateAPOD - PUT EXAMPLE OF AN UPDATE PATH AT END PUT IN ID TO UPDATE http://localhost:3000/astronomy/id/64349f33ec33ccc4823dd13c
-deleteAPOD - PUT EXAMPLE OF DELETE PATH USING AN ID http://localhost:3000/astronomy/id/64349f33ec33ccc4823dd13c
--->

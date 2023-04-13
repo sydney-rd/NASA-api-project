@@ -1,7 +1,14 @@
 # NASA APOD API-Project
 
 ## Description
-The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Originated, written, coordinated, and edited since 1995 by Robert Nemiroff and Jerry Bonnell, the APOD arcive contains the largest collection of annotated astronomical images on the internet!
+🚀 The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Originated, written, coordinated, and edited since 1995 by Robert Nemiroff and Jerry Bonnell, the APOD arcive contains the largest collection of annotated astronomical images on the internet! 🪐
+
+Why NASA? I find those in this trade inspiring and wanted to explore their work with this API.  
+                            
+
+　　　 　🌎　°　　🌓　•　　.°•　　　🚀 ✯
+　　　★　*　　　　　°　　　　🛰 　°·　　             
+.　　　•　° ★　•  ☄
 
 ## Object Content
 
@@ -14,11 +21,19 @@ The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Or
     }
 
 ## Installation
-[Postman](https://www.postman.com/downloads/) Platform for building and using API's
+- Text editor of your choice [VSCODE](https://code.visualstudio.com/Download)
 
+* [Postman](https://www.postman.com/downloads/) Platform for building and using API's
+
+## Dependencies
 
 ## Run
+- Fork and git clone this repository
+- Install dependecies
 
+In the terminal, run:
+- npm start
+- npm run dev
 
 ## API Get Endpoints Examples
 
@@ -46,17 +61,23 @@ _OR_
 4. click raw and its type to JSON
 5. utilize the object above to create
 
-**Update and Delete**
+**Update**
 
-1. 
+1. link
+2. switch the endpoint to PUT
+3. 
 
-
-
+**Delete**
+1. link
+2. switch the endpoint to DELETE
+3. 
 
 ## Credit
 APOD
 - [Github](https://github.com/nasa/apod-api)
 * [NASA](https://api.nasa.gov/)
+
+<img src="./assets/NASA.png">
 
 
 

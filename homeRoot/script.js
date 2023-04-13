@@ -10,8 +10,3 @@ h1.addEventListener("mouseover", function showHiddenContent() {
     }
 })
 
-directory_container.addEventListener("mouseleave", function hideContent() {
-  for (let i = 0; i < directories.length; i++) {
-      directory_container.style.display = "none";
-    }
-})

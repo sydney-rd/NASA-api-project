@@ -31,10 +31,26 @@ _OR_
 **Response**
 <img src="./assets/reqById.png">
 
+## CRUD Implementation 
+**Create** using API platform, Postman:
 
-## Installation 
+1. https://api-project-production-9de8.up.railway.app/astronomy ?
+2. switch the endpoint to POST
+3. click Body
+4. click raw and its type to JSON
+5. utilize the object above to create
+
+**Update and Delete**
+
+1. 
+
+
+## Installation
+Postman
+
 
 ## Run
+scripts 
 
 ## Credit
 APOD

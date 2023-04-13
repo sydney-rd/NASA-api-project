@@ -76,21 +76,21 @@ link: api-project-production-9de8.up.railway.app/astronomy/:date/2015-04-21
 
 Enter link to find all information available
 
-https://api-project-production-9de8.up.railway.app/astronomy
+``` https://api-project-production-9de8.up.railway.app/astronomy```
 
 _OR_
 
 Enter link with specific object ID number as shown below
 
-https://api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27
+```https://api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
 
 _OR_
 
 Enter link with specific date as shown below
 
-https://api-project-production-9de8.up.railway.app/astronomy/date/1995-09-21
+```https://api-project-production-9de8.up.railway.app/astronomy/date/1995-09-21```
 
-**CREATE**
+##**CREATE**
 
 1. HTTP verb to POST
 2. api-project-production-9de8.up.railway.app/astronomy/

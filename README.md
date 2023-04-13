@@ -76,38 +76,41 @@ link: api-project-production-9de8.up.railway.app/astronomy/:date/2015-04-21
 
 Enter link to find all information available
 
-``` https://api-project-production-9de8.up.railway.app/astronomy```
+```api-project-production-9de8.up.railway.app/astronomy```
 
 _OR_
 
 Enter link with specific object ID number as shown below
 
-```https://api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
+```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
 
 _OR_
 
 Enter link with specific date as shown below
 
-```https://api-project-production-9de8.up.railway.app/astronomy/date/1995-09-21```
+```api-project-production-9de8.up.railway.app/astronomy/date/1995-09-21```
 
 ##**CREATE**
 
 1. HTTP verb to POST
-2. api-project-production-9de8.up.railway.app/astronomy/
-3. click Body
-4. click raw and its type to JSON
-5. utilize the object above to create in the body
+```api-project-production-9de8.up.railway.app/astronomy/```
+
+2. click Body
+3. click raw and its type to JSON
+4. utilize the object above to create in the body
 
 **UPDATE**
 
 1. HTTP verb to PUT
-2. Enter link with specific object ID number to update
+```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
+
+2. Enter specific object ID number and update
 
 **DELETE**
 1. HTTP verb to DELETE
 2. Enter link with specific object ID number to update
 
-https://api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27 
+```api-project-production-9de8.up.railway.app/astronomy/id/643828aeff4484fa86752a27```
 
 ## Credit
 APOD

@@ -2,12 +2,14 @@
 
 ## Description
 
-<center>
-
+<p style="text-align: center;">
 🚀 The Astronomy Picture of the Day (APOD) is based upon work supported by NASA. Originated, written, coordinated, and edited since 1995 by Robert Nemiroff and Jerry Bonnell, the APOD arcive contains the largest collection of annotated astronomical images on the internet! 🪐
+</p>
 
+<p style="text-align: center;">
 Why NASA? I find those in this trade inspiring and wanted to explore their work with this API.  
-                            
+</p>
+                   
 
 
 🌑  ★      •　°    ✯  ★     🛸  🌎　°　　🌓　
@@ -15,7 +17,7 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
      •　　.°•　　🚀 ✯ ⭐️　★　*　　★　　°　　💫　　🛰 　°
      ·　　          .　　　•　° ★　•  ☄ ⭐️•
      　° ★ •　° ★  ⭐️   🪐        .°•         💫
-</center>
+
 
 ## Object Content
 

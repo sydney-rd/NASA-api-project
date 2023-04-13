@@ -34,6 +34,7 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
 In the terminal, run:
 - npm start
 - npm run dev
+- 
 
 ## API Get Endpoints Examples
 

@@ -5,10 +5,11 @@
 
 Why NASA? I find those in this trade inspiring and wanted to explore their work with this API.  
                             
- 
-　　　 　🌎　°　　🌓　•　　.°•　　　🚀 ✯
-　⭐️　★　*　　★　　°　　💫　　🛰 　°·　　             
-.　　　•　° ★　•  ☄ ⭐️
+       🌑  ★      •　°    ✯  ★     🛸  🌎　°　　🌓　
+         ⭐️       .       .    ☄   ★     ★      .
+     •　　.°•　　🚀 ✯ ⭐️　★　*　　★　　°　　💫　　🛰 　°
+     ·　　          .　　　•　° ★　•  ☄ ⭐️•
+     　° ★ •　° ★  ⭐️   🪐        .°•         💫
 
 ## Object Content
 
@@ -46,13 +47,13 @@ link: api-project-production-9de8.up.railway.app/astronomy
 
 **Request: A request by ID** will return an object specific of that ID: 
 
-link: api-project-production-9de8.up.railway.app/astronomy/id/(objectID number)
+link: api-project-production-9de8.up.railway.app/astronomy/:id/(objectID number)
 
 _OR_
 
 **Request: A request by Date** will return an object specified for entered date:
 
-link: api-project-production-9de8.up.railway.app/astronomy/date/2015-04-21
+link: api-project-production-9de8.up.railway.app/astronomy/:date/2015-04-21
 
 **Response**
 <img src="./assets/reqById.png">

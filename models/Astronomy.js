@@ -1,4 +1,4 @@
-// schema outline.
+// schema 
 import mongoose, { Schema } from "mongoose";
 
 let Astronomy = new Schema({

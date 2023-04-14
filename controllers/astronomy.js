@@ -1,6 +1,5 @@
 import Astronomy from "../models/Astronomy.js";
 
-// change models to spaceitem etc..
 export const getAPODs = async (req, res) => {
   try {
     const astronomyImgs = await Astronomy.find();
@@ -67,12 +66,9 @@ export const deleteAPOD = async (req, res) => {
   try {
     const { id } = req.params;
     const deleted = await Astronomy.findByIdAndDelete(id);
-
     if (deleted) {
       return res.status(200).send("Model deleted!");
-    }
-
-    throw new Error("Model not found");
+    } throw new Error("Model not found");
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: error.message });

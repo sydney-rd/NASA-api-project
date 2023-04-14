@@ -24,10 +24,10 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
     { 
         "date": "string",
         "title": "string",
-        "explanation": "string"",
+        "explanation": "string",
         "credit": "string",
-        "url": "string",
-    }
+        "url": "string"
+    } 
 
 ## Install and Run
 
@@ -43,7 +43,7 @@ In the terminal, run:
 
 ## API Get Endpoints Examples
 
-**Request: A request with no parameters**
+**Get Request: A request with no parameters**
 will return all astronomy picture of the day data: 
 
 link: api-project-production-9de8.up.railway.app/astronomy
@@ -51,13 +51,13 @@ link: api-project-production-9de8.up.railway.app/astronomy
 **Response**:
 <img src="./assets/reqNoParams.png">
 
-**Request: A request by ID** will return an object specific of that ID: 
+**Get Request: A request by ID** will return an object specific of that ID: 
 
 link: api-project-production-9de8.up.railway.app/astronomy/:id/(objectID number)
 
 _OR_
 
-**Request: A request by Date** will return an object specified for entered date:
+**Get Request: A request by Date** will return an object specified for entered date:
 
 link: api-project-production-9de8.up.railway.app/astronomy/:date/2015-04-21
 

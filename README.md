@@ -28,18 +28,6 @@ Why NASA? I find those in this trade inspiring and wanted to explore their work 
         "url": "string"
     } 
 
-## Install and Run
-
-In the terminal, run:
-```
-- $ git clone <NASA-api-project-giturl>
-- $ cd NASA-api-project
-- $ npm i # installs dependencies
-- $ npm run seed/data.js # seeds through data.js
-- $ npm start # runs node server.js
-- $ npm run dev # runs nodemon server.js
-```
-
 ## API Get Endpoints Examples
 
 **Get Request: A request with no parameters**

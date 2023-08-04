@@ -3,9 +3,12 @@
     auto !important;
 }
 
+.start-btn {
+  font-size: 3rem;
+}
+
 body {
-  background: url("https://wallpaperaccess.com/full/1130622.gif") no-repeat
-    center fixed;
+  background: url("https://wallpaperaccess.com/full/1130622.gif") no-repeat center fixed;
   background-size: cover;
   margin: 0;
 }
@@ -68,6 +71,7 @@ h1:hover {
   0% {
     bottom: 0;
   }
+
   100% {
     bottom: 100vh;
   }

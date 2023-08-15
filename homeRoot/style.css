@@ -88,6 +88,7 @@ div {
   }
 
   .saturn {
-    width: 2rem;
+    width: 5rem;
+    padding-left: 1rem;
   }
 }

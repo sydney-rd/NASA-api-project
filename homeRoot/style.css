@@ -35,10 +35,6 @@ h1 {
   text-align: center;
 }
 
-h1:hover {
-  color: red;
-}
-
 .rocket {
   position: absolute;
   bottom: 0;
@@ -73,6 +69,7 @@ h1:hover {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -200;
 }
 
 .saturn {
@@ -85,6 +82,14 @@ h1:hover {
     right: 50px;
     transform: translateX(50%);
     width: 80px;
+  }
 
+  div {
+    font-size: 2rem;
+
+  }
+
+  .saturn {
+    width: 3rem;
   }
 }

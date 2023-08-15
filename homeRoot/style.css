@@ -13,7 +13,6 @@ div {
   margin: 20px;
   color: white;
   font-family: "Nasa", sans-serif;
-  font-size: 3rem;
   text-align: center;
 }
 
@@ -30,7 +29,7 @@ div {
   text-transform: uppercase;
 }
 
-h1 {
+.title {
   font-size: 3rem;
   text-align: center;
 }
@@ -84,12 +83,13 @@ h1 {
     width: 80px;
   }
 
-  div {
-    font-size: 90rem;
+  .title {
+    font-size: 2rem;
 
   }
 
   .saturn {
-    width: 3rem;
+    width: 2rem;
+    z-index: -1;
   }
 }

@@ -9,11 +9,13 @@ body {
   color: white;
 }
 
+.h1-container {
+  text-align: center;
+}
+
 div {
-  margin: 20px;
   color: white;
   font-family: "Nasa", sans-serif;
-  text-align: center;
 }
 
 .directory-container {
@@ -86,6 +88,6 @@ div {
   }
 
   .saturn {
-    width: 1rem;
+    width: 2rem;
   }
 }

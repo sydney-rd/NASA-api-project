@@ -1,4 +1,4 @@
-# NASA APOD API-Project
+# NASA API-Project
 
 ## Description
 

@@ -50,7 +50,6 @@ div {
   height: 400px;
   margin: auto;
   animation: fly 5s linear infinite;
-  z-index: -200;
 }
 
 @keyframes fly {
@@ -68,7 +67,6 @@ div {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -200;
 }
 
 .saturn {
@@ -89,6 +87,5 @@ div {
 
   .saturn {
     width: 1rem;
-    z-index: -1;
   }
 }
